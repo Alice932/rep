@@ -4,6 +4,10 @@
 	<meta charset="utf-8">
 	<title>Hi</title>
 <style>
+    * {
+    	margin: 0;
+    	padding: 0;
+   	}
 	.background {
 		position: absolute;
 		z-index: -20;
@@ -12,6 +16,20 @@
 		background-image: url(background.jpg);
 		background-repeat: no-repeat;
 	}
+	/*
+	#textbox{
+    	max-height:100px;
+    	overflow:hidden;
+    	margin-top:-20px;
+	}
+	#textbox:before{
+	    content:"";
+	    display:block;
+	    height:20px;
+	    position:relative;
+	    top:80px;
+	    background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff 75%)
+	} */
 	@font-face {
         font-family: starwars; 
         src: url(font/galaxy.ttf); 
@@ -28,6 +46,7 @@
 	p {
  	   animation-duration: 20s;
  	   animation-name: padding;
+ 	   animation-iteration-count: infinite;
 	}
 
 	@keyframes padding {
