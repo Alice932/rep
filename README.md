@@ -3,8 +3,11 @@ Like a **bold** text
 Like a *italic* text
 
 Typo:
+
 *some
 *lists
+
+or:
 
 1.first
 2.second
