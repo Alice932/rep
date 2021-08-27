@@ -4,13 +4,13 @@ Like a *italic* text
 
 Typo:
 
-*some
-*lists
+* some
+* lists
 
 or:
 
-1.first
-2.second
+1. first
+2. second
 
 like a cat:
 ![some cat](https://art.pixilart.com/73f5891e0f2bcba.png)
