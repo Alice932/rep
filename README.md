@@ -15,8 +15,8 @@ like a cat:
 [About cat](https://www.dw.com/ru/v-germanii-kot-hochet-stat-burgomistrom-goroda/a-56617449)
 
 or:
-'''
+```python
 for i in cats:
   if i == 'cool':
     print("yup")
-'''
+```
