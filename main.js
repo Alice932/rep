@@ -1,7 +1,7 @@
 const app = Vue.createApp({
     data() {
         return {
-            product: 'Dogs'
+            product: 'Fish'
         }
     }
 })
