@@ -1,10 +1,143 @@
-.datetime {
-    width: 50%;
-    height: 25px;
-    background-color: #535353;
-    text-align: center;
-    padding-top: 5px;
-    border: 5px solid #535353;
-    border-radius: 0px 0px 20px 20px;
-    float: left;
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    display: grid;
+    grid-template-areas: 
+      "datetime photo toprec"
+      "down down down";
+    grid-template-rows: 46% 40% ;
+    grid-template-columns: 39% 30% 21%;
+    grid-gap: 2%;
+    height: 100vh;
+    margin-top:4%;
+    margin-left:6%;
+    margin-bottom: 5%;
+    
+    }
+
+
+#pageDatetime {
+  grid-area: datetime;
+  display: grid;
+  grid-template-areas: 
+     "date date"
+     "big survey";
+  grid-template-rows: 16% 81% ;
+  grid-template-columns: 58% 39% ;
+  grid-gap: 3%;
+}
+#pagePhoto {
+  grid-area: photo;
+  background: #c4c4c4;
+  padding: 20px;
+}
+#pageToprec { 
+  grid-area: toprec; 
+  background: #c4c4c4;  
+  padding: 20px;   
+  }
+
+
+#pageDown { 
+  grid-area: down; 
+  display: grid;
+    grid-template-areas: 
+      "event usernew air pixel";
+    grid-template-rows: 100% ;
+    grid-template-columns: 15% 41% 16% 22%;
+    grid-gap: 2%;
+    margin-top: 1%;  
+  }
+
+
+#pageUsernew { 
+  grid-area: usernew; 
+  
+  display: grid;
+    grid-template-areas: 
+      "u1"
+      "u2"
+      "u3"
+      "u4"
+      "u5";
+    grid-template-rows: 18% 18% 18% 18% 18%;  
+    grid-gap: 2%;
+     
+  
+  }
+#pageU1 {
+    grid-area: u1;
+    background-color: #c4c4c4;
+
+}
+#pageU2 {
+    grid-area: u2;
+    background-color: #c4c4c4;
+    
+}
+#pageU3 {
+    grid-area: u3;
+    background-color: #c4c4c4;
+    
+}
+#pageU4 {
+    grid-area: u4;
+    background-color: #c4c4c4;
+    
+}
+#pageU5 {
+    grid-area: u5;
+    background-color: #c4c4c4;
+    
+}
+
+#pageAir {
+    grid-area: air;
+    background-color: #c4c4c4;
+    padding: 20px;
+    margin-right: 3%;
+
+}
+#pageEvent {
+    grid-area: event;
+    background-color: #c4c4c4;
+    padding: 20px;
+}
+#pagePixel {
+    grid-area: pixel;
+    background-color: #c4c4c4;
+    padding: 20px;
+    
+}
+
+#pageDate  {
+    grid-area: date;
+    background-color: #c4c4c4;
+    
+    
+}
+
+#pageBig {
+    grid-area: big;
+    background-color: #c4c4c4;
+    
+    
+}
+
+#pageSurvey {
+    grid-area: survey;
+    background-color: #c4c4c4;
+    
+}
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto1;
+    src: url(font/Roboto-Thin.ttf);
 }
